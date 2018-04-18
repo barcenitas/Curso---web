@@ -1,0 +1,16 @@
+
+/*Llamamos una clase*/
+.Info-clase{
+	/*Para texto*/
+	color: #000000;
+	/*Para fondo*/
+	background-color: #18BAE8;
+
+}
+
+/*Llamamos un punto*/
+#identificador{
+	color: #000000;
+	background-color: #E2F009;
+
+}

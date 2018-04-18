@@ -1,0 +1,52 @@
+
+div{
+
+	color: white;
+	width: 100px;
+	height: 100px;
+	background-color: cyan;
+	background-image: url('./img/rey.jpg'); 
+	font-size: 30px;
+	margin: 5px;
+}
+
+
+.caja1{
+
+	width: 1325px;
+	height: 100px;
+	background-color: blue;
+  	position: fixed;
+  	z-index:1;
+}
+
+.caja{
+
+		position: relative;
+		z-index:0;
+		
+}
+
+
+}
+/*
+.cajaPadre{
+	width: 500px;
+	height: 500px;
+	background-color: blue;
+	/*hijo dentro del padre
+	position: relative;
+	
+}
+
+
+.cajaHijo{
+	posicionamiento por defecto
+	position: static;
+	para que no se mueva a pesar del scroll
+		position: fixed;
+}
+*/
+
+
+

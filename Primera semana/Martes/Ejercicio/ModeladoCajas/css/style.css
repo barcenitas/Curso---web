@@ -1,0 +1,42 @@
+/*Llamamos a los id*/
+
+#padding{
+	color: #139FE7;
+	background-color: #EFF709;
+	/*px | porcentaje | letras: em*/
+	
+	/*padding: 50px
+	padding-top: :50px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px*/
+	
+	/*Sentido horario*/
+	padding: 50px 70px 80px 15px;
+	margin:0px 150px 0px 150px;
+}
+
+#border{
+
+	/*SOLID SOLO FUNCIONA EN BORDER
+	border:  2px solid black;*/
+	color: #FF0000;
+	background-color: #00FFFC;
+	margin:0px 150px 0px 150px;
+}
+
+#margin{
+	/*Si se puede configurar de todos sus lados como el padding*/
+	
+	margin:0px 150px 0px 150px;
+	/*border:  2px solid black;*/
+	color: #FFFFFF;
+	background-color: #3400F5;
+
+}
+
+#imagen{
+	margin:0px 150px 0px 150px;
+	border:  20px solid skyblue;
+	padding: 5px;
+}

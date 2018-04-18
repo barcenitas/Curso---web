@@ -1,0 +1,169 @@
+/*selector de etiqueta: porque afectan a todo lo que esté dentro del html*/
+body{
+	background-color: cyan; 
+}
+h1{
+	color: #0CEB70;
+	text-align: center;
+}
+
+h2{
+	color: #0CEB70;
+	text-align: center;
+}
+
+div{
+	margin: auto;
+}
+
+
+/*-----------------------------------*/
+.cuadrado{
+	width: 200px;
+	height: 200px;
+	background-color: #FFCC00;
+	animation-name: cuadrado;
+	animation-duration: 5s;
+}
+
+.rectangulo{
+	width: 600px;
+	height: 100px;
+	background-color: #FFCC00;
+	animation-name: cuadrado;
+	animation-duration: 10s;
+}
+
+.triangulo{
+	height: 0px;
+	width: 0px;
+	border-left: 60px solid transparent;
+	border-right: 80px solid transparent;
+	border-bottom: 100px solid red;
+	animation-duration: 5s;
+	animation-name: triangulo;
+	position: relative;
+}
+
+
+/*Elemento que aplicará animación al selector*/
+
+@keyframes cuadrado{
+	0%{background-color: #FFCC00}
+	25%{background-color: #B1FE0B}
+	50%{background-color: #00FFB4}
+	75%{background-color: #009CFF}
+}
+
+/*
+@keyframes triangulo{
+	0%{border-left: #FFCC00  }
+	25%{border-right: #B1FE0B }
+	50%{border-bottom: #00FFB4 solid red}
+	75%{background-color: #009CFF}
+}
+*/
+@keyframes triangulo{
+	0%{border-left: 50 px solid transparent; 
+		border-right: 50 px solid transparent;
+		border-bottom: 50 px solid red;
+		left: 0px; top: 0px;}
+	
+	25%{border-left: 50px solid transparent; 
+		border-right: 50 px solid transparent;
+		border-bottom: 50 px solid red;
+		left: 200px; top: 0px;}
+	50%{
+		border-left: 50px solid transparent; 
+		border-right: 50 px solid transparent;
+		border-bottom: 50 px solid red;
+		left: 200px; top: 200;}
+
+	75%{
+		border-left: 50px solid transparent; 
+		border-right: 50 px solid transparent;
+		border-bottom: 50 px solid red;
+		left: 0px; top: 200;}
+
+	100%{border-left: 50 px solid transparent; 
+		border-right: 50 px solid transparent;
+		border-bottom: 50 px solid red;
+		right: 200px; top: 0px;}
+	
+}
+
+.circulo{
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	animation: circulo 1s linear 0s infinite;
+}
+
+@keyframes circulo{
+
+	from{box-shadow: 
+		100px 0 0 0 white,
+		300px 0 0 0 white,
+		500px 0 0 0 white,
+		700px 0 0 0 white,
+		900px 0 0 0 white,
+		1100px 0 0 0 white,
+		1300px 0 0 0 white;}
+	to{box-shadow: 
+		0px 0 0 0 white,
+		100px 0 0 0 white,
+		300px 0 0 0 white,
+		500px 0 0 0 white,
+		700px 0 0 0 white,
+		900px 0 0 0 white,
+		1100px 0 0 0 white;}
+}
+
+.packman{
+	margin: 50px 10px;
+}
+
+.packman1{
+	background-color: yellow;
+	height: 100px;
+	width: 200px;
+	border-radius: 0px 0px 100px 100px;
+}
+
+.packman2{
+	background-color: yellow;
+	height: 100px;
+	width: 200px;
+	border-radius: 100px 100px 0px 0px;
+}
+
+@keyframes packman1{
+
+	from{box-shadow: 
+		100px 0 0 0 white,
+		300px 0 0 0 white,
+		500px 0 0 0 white,
+		700px 0 0 0 white,
+		900px 0 0 0 white,
+		1100px 0 0 0 white,
+		1300px 0 0 0 white;}
+	to{box-shadow: 
+		0px 0 0 0 white,
+		100px 0 0 0 white,
+		300px 0 0 0 white,
+		500px 0 0 0 white,
+		700px 0 0 0 white,
+		900px 0 0 0 white,
+		1100px 0 0 0 white;}
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,147 @@
+/*Con los selectores se identifica*/
+
+body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background-color: #f1f1f1;
+}
+
+h1{
+	font-family: 'Raleway', sans-serif;
+	color:#fff;
+}
+
+header{
+	background-color: rgb(28,58,64);
+	/*rgba a=; mas transparente o más solido*/
+	/*todo lo que esta adentro va a heredar lo que este aqui*/
+
+	/*propieda*/
+	margin: 0px;
+	padding: 0px;
+}
+/*le aplicamos dos estilos a ambas etiquetas*/
+/**/
+
+nav ul li,footer ul li{
+display: inline;
+}
+
+/*quirtt bolitas*/
+ul{
+	list-style: none;
+}
+
+h1,h2{
+
+	text-align: center;
+	padding-top: 20px;
+}
+
+/*arriba todo bloque */
+
+nav a{
+
+	display: inline-block;
+	/*px, %*/
+	width: 100px;
+	height: 20px;
+	text-decoration: none;
+	background-color: #0A0A2A;
+	color: #fff;	
+}
+
+
+img{
+ /*tamaño del contenedor: para que se vea todo*/
+	width: 35%;
+}
+
+.infromacion-personal{
+text-align: center;
+width: 45%;
+}
+
+
+/*Efecto del mouse*/
+li:hover a{
+	background-color: #ccc;
+}
+/*para marcar las pestañas*/
+.active{
+	background-color: #ccc;
+}
+
+
+
+footer{
+	font-family: 'Hi Melody', cursive;
+	height: 120px;
+	background: grey;
+}
+
+
+/*PARA LOS PREMIOS*/
+
+section.premios{
+	width: 60%;
+}
+
+/*ponemos puntitos dotted cuando queremos pu8ntitos  */
+table,th,td{
+border:2px solid rgb(28,58,64);
+border-collapse: collapse;
+}
+
+
+
+/*biografia*/
+
+section.biografia-inf-justificada{
+text-align: center;
+width: 45%;
+text-align: justify;
+}
+
+
+.foo{
+	display: inline-block;
+	/*px, %*/	
+	margin: 10px;
+	text-decoration: none;
+	background: #0A0A2A;
+	color: #fff;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

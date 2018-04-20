@@ -1,0 +1,126 @@
+.col-md-1, .col-md-6, .col-md-12, 
+.col-xs-12 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+	border:2px solid white;
+}
+
+h1{
+	
+	width: 100%;
+	text-align: center;
+	color:white;
+	size: 500px;
+}
+
+p{
+	width: 80%;
+	text-align: justify;
+}
+
+
+nav ul li,footer ul li{
+display: inline;
+
+}
+
+ul{
+	list-style: none;
+}
+
+h1,h2{
+
+	text-align: center;
+	padding-top: 10px;
+
+}
+
+
+
+header{
+	background-color: black;
+	width: 1450px;
+	height: 120px;
+	position: fixed;
+  	z-index:1;
+	max-width:100%;
+	font-family: 'Nova Cut', cursive;
+	margin-top:  -10px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background-color: #D9D7D7;
+	animation-name: bkchange;
+}
+
+.active{
+	background-color: #D7083E;
+}
+
+.encabezado{
+		position: relative;
+		z-index:0;		
+}
+.foo{
+	display: inline-block;
+	margin: 10px;
+	text-decoration: none;
+	/*background-color: #0DEF5D;*/
+	
+}
+
+footer{
+	background-color:black;
+}
+
+
+
+
+/*------------------------------------*/
+@media screen and (max-width: 1800px) and (min-width: 992px){
+	body{
+	background: #e0f2f1;
+	}
+	
+@media screen and (max-width: 992px) and (min-width: 600px){
+	body{
+	background: #4db6ac;
+	/*cambiamos */
+	color: #fff;
+	}
+
+
+@media screen and (max-width: 400px) and (min-width: 0px){
+	body{
+	background: #004d40;
+	/*cambiamos */
+	color: yellow;
+	}
+
+}
+/*---------------------------*/
+
+
+@-moz-keyframes bkchange {  
+    from {  
+      background: #999;  
+    }  
+  
+    to {  
+      background:white;
+    }  
+  } 
+  @-webkit-keyframes bkchange {  
+    from {  
+      background: #333; 
+    }  
+  
+    to {  
+    }  
+  } 
+
+  

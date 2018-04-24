@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Eventos en html</title>
+    <script type="text/javascript">
+      function vaciar(){
+        document.getElementById("num1").value="";
+      }
+      function cuadrado(){
+        var n=document.getElementById("num1");
+        n.value*=n.value;
+      }
+    </script>
+  </head>
+  <body>
+    <center>
+    <h1>Numero:</h1>
+    <input type="text" id="num1">
+    <button type="button" name="button" onclick="vaciar()">vaciar</button>
+    <button type="button" name="button2" onclick="cuadrado()">x<sup>2</sup></button>
+    <div class="">
+      <img src="img/C.png" onclick="this.src='img/B.png'">
+    </div>
+    </center>
+  </body>
+</html>

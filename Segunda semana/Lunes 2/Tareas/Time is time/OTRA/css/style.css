@@ -13,8 +13,6 @@
 
 /* latin-ext */
 
-
-
 @font-face {
   font-family: 'Erica One';
   font-style: normal;
@@ -69,7 +67,7 @@ h1 {
   
   font-family: 'Erica One', cursive;
   font-size: 80px;
-  color: #4abceb;
+  color: #FFF;
   text-align: center;
   line-height: 100px;
   text-shadow: 0 1px 0 #CCC,
@@ -144,7 +142,3 @@ color: grey;
         margin-left:10px;
     }
 }
-
-
-
-

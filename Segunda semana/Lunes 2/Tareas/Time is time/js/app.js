@@ -13,3 +13,4 @@ $(function(){
     $(this).css('animation-delay', '-'+i+'70ms');
   });
 });
+

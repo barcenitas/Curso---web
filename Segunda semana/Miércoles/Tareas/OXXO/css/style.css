@@ -1,0 +1,58 @@
+ body {
+ 	display: flex;
+ 	min-height: 100vh;
+ 	flex-direction: column;
+ }
+ main {
+ 	flex: 1 0 auto;
+ }
+
+ #logoxxo{
+ 	margin-top: 5px;
+ 	margin-left: 5px;
+ 	height: 55px;
+ }
+
+
+
+ #myFooter {
+ 	background-color: #3D3D3D;
+ }
+
+ #botones-sociales{
+    width:90px;
+    height:33px;
+}
+
+.card {
+ width:330px;
+}
+
+.carousel{
+height:597px;
+background-color: #d50000;
+
+ }
+
+
+ img {
+    max-width:100%;
+}
+
+ #video {
+    max-width:100%;
+    width: 450px;
+    height: 300px;
+}
+
+#formulario{
+max-width:60%;
+	 width: 450px;
+    height: 350px;
+}
+
+#mapa{
+	border-left: 250px;
+	 width: 350px;
+    height: 350px;
+}

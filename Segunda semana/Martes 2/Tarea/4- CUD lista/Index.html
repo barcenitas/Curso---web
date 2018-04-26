@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>CUD | LISTA</title>
+</head>
+<body>
+	
+	<div>
+		<center>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<center>
+				<div class="row">
+
+					<div class="s12">
+						<div class="s6">
+
+							<div class="col s4">
+								<h2>Lenguajes de programación</h2>
+								<input type="submit" onclick="return agregar()" value="Añadir">
+								<input type="text" id="crear1" size="37" placeholder="Crear nuevo">
+								<input type="text" id="id1" size="15" placeholder="Id">
+
+								
+
+							</div>
+							<div class="col s4">
+
+								<input type="text" id="actualizar1" size="25" placeholder="Actualizar">
+								<input type="text" id="borrar1" size="15" placeholder="Borrar">
+								<button onclick="actualizar()">Actualizar</button>
+								<button onclick="borrar()">Borrar</button>
+
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="row">
+
+					<div class="col s12 m6" >
+						<center>
+							<br>
+							<p>Lista</p>
+
+							
+
+						</center>
+					</div>
+				</div>
+
+
+				<ol id="Lista1">
+
+					<li>Lenguaje C</li>
+					<li>Javascript</li>
+				</ol>
+
+
+
+<script>
+	function crear(){
+	var texto = document.getElementById("crear1").value;
+	var node = document.createElement("LI");
+	var textnode = document.createTextNode(texto);
+	node.appendChild(textnode);
+	document.getElementById("Lista1").appendChild(node);
+	document.getElementById("crear1").value = " ";
+}
+
+
+function actualizar(){
+	var texto = document.getElementById("actualizar1").value
+	var node = document.createElement("LI");
+	var textnode = document.createTextNode(texto);
+	var item = document.getElementById("Lista1").childNodes[1];
+	item.replaceChild(textnode,item.childNodes[1]);
+}
+
+function borrar(){
+	var numDel = document.getElementById("borrar1).value; var lista = document.getElementById("Lista1");lista.removeChild(lista.childNodes[numDel]);}                                                                                                   
+
+</script>
+
+
+			</body>
+			<script type="text/javascript" src="js/app.js"></script>
+			</html>
